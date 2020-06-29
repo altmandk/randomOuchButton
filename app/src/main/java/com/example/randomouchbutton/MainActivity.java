@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     ouchButton.setText("Ouch!");
                 }
                 //After 20 clicks a random number is generated and displayed as text
-                if(count >= 20) {
+                if(count == 20) {
                     Random randomNum = new Random();
                     ouchButton.setText(String.valueOf(randomNum.nextInt(100)));
                 }

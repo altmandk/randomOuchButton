@@ -1,0 +1,2 @@
+rootProject.name='randomOuchButtonKotlin'
+include ':app'
