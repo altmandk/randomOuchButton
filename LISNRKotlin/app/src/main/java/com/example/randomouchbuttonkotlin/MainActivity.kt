@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 ouchButton.text = "Ouch!"
             }
             //After 20 clicks a random number is generated and displayed as text
-            if (count >= 20) {
+            if (count == 20) {
                 val randomNum = Random()
                 ouchButton.text = randomNum.nextInt(100).toString()
             }
